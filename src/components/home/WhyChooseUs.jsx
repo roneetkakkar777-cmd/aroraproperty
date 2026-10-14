@@ -1,7 +1,7 @@
 import React from 'react';
 import { Award, CheckCircle, Clock, Heart } from 'lucide-react';
 
-const ReasonCard = ({ icon: Icon, title, description }) => ( // eslint-disable-line no-unused-vars
+const ReasonCard = ({ icon: Icon, title, description }) => (
     <div className="flex items-start gap-4 p-6 bg-gray-50 rounded-lg hover:bg-white hover:shadow-lg transition-all duration-300 border border-transparent hover:border-gray-100">
         <div className="bg-primary text-white p-3 rounded-lg shrink-0">
             <Icon size={24} />

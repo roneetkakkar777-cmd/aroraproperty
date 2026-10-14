@@ -1,7 +1,7 @@
 import React from 'react';
 import { Home, Key, Coins, FileText, TrendingUp, ShieldCheck } from 'lucide-react';
 
-const ServiceCard = ({ icon: Icon, title, description, features }) => ( // eslint-disable-line no-unused-vars
+const ServiceCard = ({ icon: Icon, title, description, features }) => (
     <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 group flex flex-col h-full hover:-translate-y-2">
         <div className="w-16 h-16 bg-secondary/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-secondary group-hover:text-white transition-colors text-secondary">
             <Icon size={32} />

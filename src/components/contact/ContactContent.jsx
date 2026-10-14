@@ -3,7 +3,7 @@ import { Send, Phone, Mail, MapPin } from "lucide-react";
 import { FadeInUp } from "../common/Motion";
 
 const ContactInfoCard = (
-  { icon: Icon, title, content, subContent }, // eslint-disable-line no-unused-vars
+  { icon: Icon, title, content, subContent },
 ) => (
   <div className="flex items-start gap-4 p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
     <div className="bg-secondary/10 p-3 rounded-lg text-secondary flex-shrink-0">

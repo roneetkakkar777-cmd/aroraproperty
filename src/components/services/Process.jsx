@@ -1,7 +1,7 @@
 import React from 'react';
 import { MessageSquare, Search, FileCheck, Handshake, Smile } from 'lucide-react';
 
-const ProcessStep = ({ icon: Icon, title, description, number }) => ( // eslint-disable-line no-unused-vars
+const ProcessStep = ({ icon: Icon, title, description, number }) => (
     <div className="relative flex flex-col items-center text-center p-6 z-10">
         <div className="w-16 h-16 bg-white border-4 border-secondary rounded-full flex items-center justify-center mb-6 shadow-lg z-10 transition-transform hover:scale-110 duration-300">
             <Icon size={32} className="text-secondary" />

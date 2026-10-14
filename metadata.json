@@ -1,0 +1,6 @@
+{
+  "name": "Aroras Properties",
+  "description": "Comprehensive real estate portal for property listings, buying, selling, and rental services in Ghaziabad and NCR.",
+  "permissions": [],
+  "capabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
